@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA69046B41A0671BBE18CF03 /* Pods_Crichero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFAF8CDF83B589DE4D4638A /* Pods_Crichero.framework */; };
+		ED18FADB200F2A0B00211AED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18FADA200F2A0B00211AED /* AppDelegate.swift */; };
+		ED18FADD200F2A0B00211AED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18FADC200F2A0B00211AED /* ViewController.swift */; };
+		ED18FAE0200F2A0B00211AED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED18FADE200F2A0B00211AED /* Main.storyboard */; };
+		ED18FAE2200F2A0B00211AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED18FAE1200F2A0B00211AED /* Assets.xcassets */; };
+		ED18FAE5200F2A0B00211AED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED18FAE3200F2A0B00211AED /* LaunchScreen.storyboard */; };
+		ED18FAF0200F2A0B00211AED /* CricheroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18FAEF200F2A0B00211AED /* CricheroTests.swift */; };
+		ED18FAFB200F2A0B00211AED /* CricheroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18FAFA200F2A0B00211AED /* CricheroUITests.swift */; };
+		ED18FB09200F4BD100211AED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18FB08200F4BD100211AED /* DetailViewController.swift */; };
+		ED18FB0C200F669D00211AED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED18FB0B200F669D00211AED /* AVFoundation.framework */; };
+		EDB3D79D203D450B00364B72 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB3D79C203D450B00364B72 /* MainTableViewController.swift */; };
+		EDB3D79E203D46D800364B72 /* FoldingCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB3D79F203D46D800364B72 /* FoldingCell.framework */; };
+		EDB3D7A4203D647200364B72 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB3D7A3203D647200364B72 /* FoldingCell.swift */; };
+		EDB3D7A6203D648800364B72 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB3D7A5203D648800364B72 /* DemoCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED18FAEC200F2A0B00211AED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED18FACF200F2A0B00211AED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED18FAD6200F2A0B00211AED;
+			remoteInfo = Crichero;
+		};
+		ED18FAF7200F2A0B00211AED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED18FACF200F2A0B00211AED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED18FAD6200F2A0B00211AED;
+			remoteInfo = Crichero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19F300B215EC78C69E277E07 /* Pods-Crichero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crichero.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crichero/Pods-Crichero.release.xcconfig"; sourceTree = "<group>"; };
+		25040A747F70D7A0CFD7E1F1 /* Pods-Crichero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crichero.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crichero/Pods-Crichero.debug.xcconfig"; sourceTree = "<group>"; };
+		BBFAF8CDF83B589DE4D4638A /* Pods_Crichero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crichero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED18FAD7200F2A0B00211AED /* Crichero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crichero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED18FADA200F2A0B00211AED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED18FADC200F2A0B00211AED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED18FADF200F2A0B00211AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED18FAE1200F2A0B00211AED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED18FAE4200F2A0B00211AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED18FAE6200F2A0B00211AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED18FAEB200F2A0B00211AED /* CricheroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricheroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED18FAEF200F2A0B00211AED /* CricheroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricheroTests.swift; sourceTree = "<group>"; };
+		ED18FAF1200F2A0B00211AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED18FAF6200F2A0B00211AED /* CricheroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricheroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED18FAFA200F2A0B00211AED /* CricheroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricheroUITests.swift; sourceTree = "<group>"; };
+		ED18FAFC200F2A0B00211AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED18FB08200F4BD100211AED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ED18FB0B200F669D00211AED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EDB3D79C203D450B00364B72 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		EDB3D79F203D46D800364B72 /* FoldingCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FoldingCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB3D7A2203D647200364B72 /* FoldingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingCell.h; sourceTree = "<group>"; };
+		EDB3D7A3203D647200364B72 /* FoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		EDB3D7A5203D648800364B72 /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED18FAD4200F2A0B00211AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB3D79E203D46D800364B72 /* FoldingCell.framework in Frameworks */,
+				ED18FB0C200F669D00211AED /* AVFoundation.framework in Frameworks */,
+				CA69046B41A0671BBE18CF03 /* Pods_Crichero.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FAE8200F2A0B00211AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FAF3200F2A0B00211AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EE764F2D516F510259B2DAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25040A747F70D7A0CFD7E1F1 /* Pods-Crichero.debug.xcconfig */,
+				19F300B215EC78C69E277E07 /* Pods-Crichero.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED18FACE200F2A0B00211AED = {
+			isa = PBXGroup;
+			children = (
+				ED18FAD9200F2A0B00211AED /* Crichero */,
+				ED18FAEE200F2A0B00211AED /* CricheroTests */,
+				ED18FAF9200F2A0B00211AED /* CricheroUITests */,
+				ED18FAD8200F2A0B00211AED /* Products */,
+				ED18FB0A200F669D00211AED /* Frameworks */,
+				0EE764F2D516F510259B2DAC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		ED18FAD8200F2A0B00211AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED18FAD7200F2A0B00211AED /* Crichero.app */,
+				ED18FAEB200F2A0B00211AED /* CricheroTests.xctest */,
+				ED18FAF6200F2A0B00211AED /* CricheroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED18FAD9200F2A0B00211AED /* Crichero */ = {
+			isa = PBXGroup;
+			children = (
+				ED18FADA200F2A0B00211AED /* AppDelegate.swift */,
+				ED18FADC200F2A0B00211AED /* ViewController.swift */,
+				EDB3D7A2203D647200364B72 /* FoldingCell.h */,
+				EDB3D7A3203D647200364B72 /* FoldingCell.swift */,
+				ED18FB08200F4BD100211AED /* DetailViewController.swift */,
+				EDB3D7A5203D648800364B72 /* DemoCell.swift */,
+				EDB3D79C203D450B00364B72 /* MainTableViewController.swift */,
+				ED18FADE200F2A0B00211AED /* Main.storyboard */,
+				ED18FAE1200F2A0B00211AED /* Assets.xcassets */,
+				ED18FAE3200F2A0B00211AED /* LaunchScreen.storyboard */,
+				ED18FAE6200F2A0B00211AED /* Info.plist */,
+			);
+			path = Crichero;
+			sourceTree = "<group>";
+		};
+		ED18FAEE200F2A0B00211AED /* CricheroTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED18FAEF200F2A0B00211AED /* CricheroTests.swift */,
+				ED18FAF1200F2A0B00211AED /* Info.plist */,
+			);
+			path = CricheroTests;
+			sourceTree = "<group>";
+		};
+		ED18FAF9200F2A0B00211AED /* CricheroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED18FAFA200F2A0B00211AED /* CricheroUITests.swift */,
+				ED18FAFC200F2A0B00211AED /* Info.plist */,
+			);
+			path = CricheroUITests;
+			sourceTree = "<group>";
+		};
+		ED18FB0A200F669D00211AED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB3D79F203D46D800364B72 /* FoldingCell.framework */,
+				ED18FB0B200F669D00211AED /* AVFoundation.framework */,
+				BBFAF8CDF83B589DE4D4638A /* Pods_Crichero.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED18FAD6200F2A0B00211AED /* Crichero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED18FAFF200F2A0B00211AED /* Build configuration list for PBXNativeTarget "Crichero" */;
+			buildPhases = (
+				7C045A160D3A0F39C1F0DEB9 /* [CP] Check Pods Manifest.lock */,
+				ED18FAD3200F2A0B00211AED /* Sources */,
+				ED18FAD4200F2A0B00211AED /* Frameworks */,
+				ED18FAD5200F2A0B00211AED /* Resources */,
+				190F83782AB7373B99BE0224 /* [CP] Embed Pods Frameworks */,
+				ED94EF5BA93E760761B12067 /* [CP] Copy Pods Resources */,
+				A9DDA1BC4A38FCE29B608663 /* Tailor */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crichero;
+			productName = Crichero;
+			productReference = ED18FAD7200F2A0B00211AED /* Crichero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED18FAEA200F2A0B00211AED /* CricheroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED18FB02200F2A0B00211AED /* Build configuration list for PBXNativeTarget "CricheroTests" */;
+			buildPhases = (
+				ED18FAE7200F2A0B00211AED /* Sources */,
+				ED18FAE8200F2A0B00211AED /* Frameworks */,
+				ED18FAE9200F2A0B00211AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED18FAED200F2A0B00211AED /* PBXTargetDependency */,
+			);
+			name = CricheroTests;
+			productName = CricheroTests;
+			productReference = ED18FAEB200F2A0B00211AED /* CricheroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED18FAF5200F2A0B00211AED /* CricheroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED18FB05200F2A0B00211AED /* Build configuration list for PBXNativeTarget "CricheroUITests" */;
+			buildPhases = (
+				ED18FAF2200F2A0B00211AED /* Sources */,
+				ED18FAF3200F2A0B00211AED /* Frameworks */,
+				ED18FAF4200F2A0B00211AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED18FAF8200F2A0B00211AED /* PBXTargetDependency */,
+			);
+			name = CricheroUITests;
+			productName = CricheroUITests;
+			productReference = ED18FAF6200F2A0B00211AED /* CricheroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED18FACF200F2A0B00211AED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "ios dev 4";
+				TargetAttributes = {
+					ED18FAD6200F2A0B00211AED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ED18FAEA200F2A0B00211AED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED18FAD6200F2A0B00211AED;
+					};
+					ED18FAF5200F2A0B00211AED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED18FAD6200F2A0B00211AED;
+					};
+				};
+			};
+			buildConfigurationList = ED18FAD2200F2A0B00211AED /* Build configuration list for PBXProject "Crichero" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED18FACE200F2A0B00211AED;
+			productRefGroup = ED18FAD8200F2A0B00211AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED18FAD6200F2A0B00211AED /* Crichero */,
+				ED18FAEA200F2A0B00211AED /* CricheroTests */,
+				ED18FAF5200F2A0B00211AED /* CricheroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED18FAD5200F2A0B00211AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18FAE5200F2A0B00211AED /* LaunchScreen.storyboard in Resources */,
+				ED18FAE2200F2A0B00211AED /* Assets.xcassets in Resources */,
+				ED18FAE0200F2A0B00211AED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FAE9200F2A0B00211AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FAF4200F2A0B00211AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		190F83782AB7373B99BE0224 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crichero/Pods-Crichero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C045A160D3A0F39C1F0DEB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9DDA1BC4A38FCE29B608663 /* Tailor */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Tailor;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if hash tailor 2>/dev/null; then\n  tailor\nelse\n  echo \"warning: Please install Tailor from https://tailor.sh\"\nfi";
+		};
+		ED94EF5BA93E760761B12067 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crichero/Pods-Crichero-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED18FAD3200F2A0B00211AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18FB09200F4BD100211AED /* DetailViewController.swift in Sources */,
+				EDB3D7A4203D647200364B72 /* FoldingCell.swift in Sources */,
+				EDB3D7A6203D648800364B72 /* DemoCell.swift in Sources */,
+				ED18FADD200F2A0B00211AED /* ViewController.swift in Sources */,
+				EDB3D79D203D450B00364B72 /* MainTableViewController.swift in Sources */,
+				ED18FADB200F2A0B00211AED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FAE7200F2A0B00211AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18FAF0200F2A0B00211AED /* CricheroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED18FAF2200F2A0B00211AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18FAFB200F2A0B00211AED /* CricheroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED18FAED200F2A0B00211AED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED18FAD6200F2A0B00211AED /* Crichero */;
+			targetProxy = ED18FAEC200F2A0B00211AED /* PBXContainerItemProxy */;
+		};
+		ED18FAF8200F2A0B00211AED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED18FAD6200F2A0B00211AED /* Crichero */;
+			targetProxy = ED18FAF7200F2A0B00211AED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED18FADE200F2A0B00211AED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED18FADF200F2A0B00211AED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED18FAE3200F2A0B00211AED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED18FAE4200F2A0B00211AED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED18FAFD200F2A0B00211AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED18FAFE200F2A0B00211AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED18FB00200F2A0B00211AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25040A747F70D7A0CFD7E1F1 /* Pods-Crichero.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = Crichero/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.Crichero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED18FB01200F2A0B00211AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F300B215EC78C69E277E07 /* Pods-Crichero.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = Crichero/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.Crichero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED18FB03200F2A0B00211AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = CricheroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.CricheroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crichero.app/Crichero";
+			};
+			name = Debug;
+		};
+		ED18FB04200F2A0B00211AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = CricheroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.CricheroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crichero.app/Crichero";
+			};
+			name = Release;
+		};
+		ED18FB06200F2A0B00211AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = CricheroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.CricheroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Crichero;
+			};
+			name = Debug;
+		};
+		ED18FB07200F2A0B00211AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = CricheroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNM.CricheroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Crichero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED18FAD2200F2A0B00211AED /* Build configuration list for PBXProject "Crichero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED18FAFD200F2A0B00211AED /* Debug */,
+				ED18FAFE200F2A0B00211AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED18FAFF200F2A0B00211AED /* Build configuration list for PBXNativeTarget "Crichero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED18FB00200F2A0B00211AED /* Debug */,
+				ED18FB01200F2A0B00211AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED18FB02200F2A0B00211AED /* Build configuration list for PBXNativeTarget "CricheroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED18FB03200F2A0B00211AED /* Debug */,
+				ED18FB04200F2A0B00211AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED18FB05200F2A0B00211AED /* Build configuration list for PBXNativeTarget "CricheroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED18FB06200F2A0B00211AED /* Debug */,
+				ED18FB07200F2A0B00211AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED18FACF200F2A0B00211AED /* Project object */;
+}
